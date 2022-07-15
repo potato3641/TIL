@@ -1,0 +1,24 @@
+git init # mkdir .git
+git status # check
+git config --global --list # check
+git config --global --unset user.email
+git config --global --unset user.name
+git config --global user.email "이메일"
+git config --global user.name "이름"
+git config --global --list # check
+git add a.txt # save
+git commit -m 'root commit' # commit
+git status # check
+git log # check commit
+git log --oneline # check commit in one line
+git checkout 해쉬값 # confirm precode
+git checkout master # comeback
+git remote -v
+git remote 주소 # connect to github
+git push origin master # update local to hub
+git clone 주소 # folder name = repository name , make new folder at desktop
+git pull origin master # update hub to local
+touch .gitignore # set untracked file
+> write file direction
+> gitignore.io
+.gitkeep # empty folder remain for skeleton
