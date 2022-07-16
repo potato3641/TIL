@@ -43,3 +43,4 @@ touch .gitignore
 .gitkeep
 > 형태 유지를 위한 빈 폴더 만드는 방법
 > empty folder remain for skeleton
+> 알아야 할 내용이 많음
