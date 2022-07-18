@@ -46,3 +46,11 @@ touch .gitignore
 > empty folder remain for skeleton
 (2022.07.16) 휴식
 (2022.07.17) 중급 문제 3개를 추가로 품
+(2022.07.18)
+Alt+Click : 다중커서 활성화
+Ctrl D : 단어 드래그하고 쓰면 동일단어 다 드래그
+Alt+Shift+under↓ : 지금 줄 밑으로 복사
+Ctrl / : 주석전환
+f스트링 쓰는 법
+f'{변수이름:변수형식'}
+f'{변수이름}'
