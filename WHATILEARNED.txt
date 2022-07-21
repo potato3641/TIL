@@ -145,3 +145,5 @@ $ deactivate
 > 별도의 가상 환경 생성/비활성화(파이썬 기본라이브러리 외 독립적인 공간)
 $ source venv/Scripts/activate
 > 가상 환경 활성화
+(2022.07.21)
+
