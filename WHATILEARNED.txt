@@ -146,4 +146,9 @@ $ deactivate
 $ source venv/Scripts/activate
 > 가상 환경 활성화
 (2022.07.21)
-
+pip freeze
+> 현재 가상 환경을 key==value로 복사하기 쉽게 정리해줌
+pip freeze > requirement.txt
+> 정리한걸 requirement.txt 에 내보내줌
+pip install -r requirement.txt
+> 정리된 내용 토대로 가상환경 설치
