@@ -152,3 +152,6 @@ pip freeze > requirement.txt
 > 정리한걸 requirement.txt 에 내보내줌
 pip install -r requirement.txt
 > 정리된 내용 토대로 가상환경 설치
+(2022.07.22)
+dict comprehension
+> {key: val for key, val in enumerate(datas)}
