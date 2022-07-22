@@ -155,3 +155,4 @@ pip install -r requirement.txt
 (2022.07.22)
 dict comprehension
 > {key: val for key, val in enumerate(datas)}
+(2022.07.23) 중급 문제 5개 품
