@@ -101,7 +101,7 @@
 > 0부터 9까지 condition을 충족한 리스트
 >
 
-`{i: i*2 for i in range(10) if condition}
+`{i: i*2 for i in range(10) if condition}`
 
 > Dictionary Comprehension
 >
