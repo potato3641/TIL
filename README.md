@@ -53,16 +53,104 @@
 
 ### ▶ PYTHON
 
-> map이나 range만 사용하면 LIST 형태의 자료가 아닌 것을 알고 썼나요?
-> 
-> 문자열 소수 `'3.5'`를 int()로 명시적 형변환 할 수 없는 것을 알고 있나요?
-> 
-> f-string 사용할 때 `print('')`중간에 f를 까먹지 않았나요?
-> 
-> %d %f %s를 사용할 때 `% 변수이름`을 빼먹지 않았나요?
-> 
-> 중복 데이터가 필요한 데 set()으로 데이터를 담지는 않았나요?
-> 
-> ( [ { 괄호를 헷갈리지 않았나요?
-> 
-> 다차원 리스트의 요소를 바꾸기 전에 복사해간 다른 변수가 있는지 생각했나요?
+`print('hi, %s' % name)`
+
+> %-formattiong
+>
+
+`print('hi, {}'.format(name)`
+
+> str.format()
+>
+
+`print(f'hi, {name}')
+
+> f-string
+>
+
+> is 는 id까지 같음을 의미함
+>
+> == 는 값이 같음을 의미함
+>
+
+`imlist[-1]`
+
+> 뒤에서 첫 번째 값에 접근
+
+`num if num >= 0 else - num`
+
+> abs(num)
+>
+> Conditional Experssion
+>
+
+`a = dict(b=80, c=40)`
+`for i in a:`
+
+> i는 b와 c임
+>
+> i를 통해 80과 40에 접근 가능
+>
+
+`[i for i in range(10) if condition]`
+
+> List Comprehension
+>
+> 0부터 9까지 condition을 충족한 리스트
+>
+
+`{i: i*2 for i in range(10) if condition}
+
+> Dictionary Comprehension
+>
+> 키값은 0부터 9까지, 키의 2배수가 값으로 condition을 충족한 딕셔너리
+>
+
+`break`
+
+> 반복 중단
+>
+
+`continue`
+
+> 이번 반복만 넘어감
+>
+
+`pass`
+
+> 파업
+>
+
+`for-else`
+
+> for 다 돌고 else 실행
+>
+> break로 종료하면 else는 안 함
+>
+
+`def func(*args):`
+
+> 여러 인자를 한 번에 받기
+>
+> tuple로 취급하여 받아옴
+>
+
+`def func(**kwargs):`
+
+> 여러 인자를 key=value형태로 받기
+>
+> dictionary로 취급하여 받아옴
+>
+
+LEGB
+
+> Local, Enclosed, Global, Built-in
+>
+
+`lambda a, b: a * b`
+
+> 이름 없는 함수
+>
+> lambda 인자: return값 구조
+>
+
