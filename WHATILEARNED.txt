@@ -45,7 +45,7 @@ touch .gitignore
 > 형태 유지를 위한 빈 폴더 만드는 방법
 > empty folder remain for skeleton
 (2022.07.16) 휴식
-(2022.07.17) 중급 문제 3개를 추가로 품
+(2022.07.17) D2 문제 3개를 추가로 품
 (2022.07.18)
 Alt+Click : 다중커서 활성화
 Ctrl D : 단어 드래그하고 쓰면 동일단어 다 드래그
@@ -155,5 +155,5 @@ pip install -r requirement.txt
 (2022.07.22)
 dict comprehension
 > {key: val for key, val in enumerate(datas)}
-(2022.07.23) 중급 문제 5개 품
-(2022.07.24) 중급 문제 5개 품
+(2022.07.23) D2 문제 5개 품
+(2022.07.24) D3 문제 5개 품
