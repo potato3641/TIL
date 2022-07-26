@@ -159,3 +159,13 @@ dict comprehension
 (2022.07.24) D3 문제 5개 품
 (2022.07.25) D3 문제 5개 품
 (2022.07.26)
+'a = dict(zip(range(1,4),[0]*3)'
+'{1: 0, 2: 0, 3: 0}'
+zip 사용 방법
+`for r in range(1,3):`
+`    for c in range(r):`
+`        a[r][c],a[c][r] = a[c][r],a[r][c]`
+정방전치행렬
+`list(map(list,zip(*a)))`
+전치행렬 튜플해결책
+바꿀 수 없는건 global로 불러서 해결될 수도 있음
