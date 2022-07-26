@@ -172,3 +172,4 @@ dict comprehension
 global : 전역변수 선언, 가져오기 둘 다 가능
 `set(set(a))`
 > 요소는 그대로, id 세탁
+(2022.07.27)
