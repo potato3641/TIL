@@ -173,3 +173,35 @@ global : 전역변수 선언, 가져오기 둘 다 가능
 `set(set(a))`
 > 요소는 그대로, id 세탁
 (2022.07.27) D3 문제 2개 품
+PYTHON OOP
+> 모든 것은 객체이자 모든 객체는 특정 타입의 인스턴스
+> __str(self)__ : toString()
+> __del(self)__ : 단말마
+> __init(self, other)__ : 생성자
+기타 등등
+`@classmethod`
+`def cmth(cls)`
+> 클래스 메소드
+`@function_name`
+`def targetmth()`
+> 데코레이터 사용 시
+`def setmth(original)`
+`    def wrapper():`
+`        pass`
+`    return wrapper`
+> 데코레이터 정의 시
+`@staticmethod`
+> 스태틱 메소드 no cls, no self
+PYTHONIC NAMESPACE
+> 가장 가까운 것부터 찾는다
+`super()`
+> 상속시 부모 호출방법
+주의 : 오버로딩 없음 우리에겐 가변인자가 있음...
+`__variable = 1`
+> private member 선언할 때 언더바 두개
+`@property`
+`def var_name(self)`
+> getter
+`var_name.setter`
+`def var_name(self, new_var)`
+> setter
