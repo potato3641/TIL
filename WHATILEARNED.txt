@@ -205,3 +205,8 @@ PYTHONIC NAMESPACE
 `var_name.setter`
 `def var_name(self, new_var)`
 > setter
+(2022.07.28) D3 2개 품
+class docstring
+> class 밑에 '''써서 기입하는 class 안내문
+> help(class_name)으로 docstring을 호출할 수 있음
+!! 인스턴스 생성은 __init__이 실행되어야만 가능
