@@ -205,10 +205,11 @@ PYTHONIC NAMESPACE
 `var_name.setter`
 `def var_name(self, new_var)`
 > setter
-(2022.07.28) D3 2개 품
+(2022.07.28) D3 12개 품
 class docstring
 > class 밑에 '''써서 기입하는 class 안내문
 > help(class_name)으로 docstring을 호출할 수 있음
 !! 인스턴스 생성은 __init__이 실행되어야만 가능
 > 메소드 오버라이딩 : 함수를 이름만 가지고 다시 쓰는것 python O
 > 메소드 오버로딩 : 클래스 내에 다른 내용의 함수를 쓰는 것 python X
+(2022.07.29)
