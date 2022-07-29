@@ -224,3 +224,4 @@ params = {
 }
 api 받는 방법 : request.get(URL, params=params).json()
 나머지는 JSON 지지고 볶기
+(2022.07.30)
