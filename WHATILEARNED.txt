@@ -166,7 +166,7 @@ dict comprehension
 `    for c in range(r):`
 `        a[r][c],a[c][r] = a[c][r],a[r][c]`
 > 정방전치행렬
-`list(map(list,zip(*a)))`
+`list(map(list,zip(*a)))` ####################################################### 짚
 > 전치행렬 튜플해결책
 바꿀 수 없는건 global로 불러서 해결될 수도 있음
 global : 전역변수 선언, 가져오기 둘 다 가능
@@ -212,4 +212,15 @@ class docstring
 !! 인스턴스 생성은 __init__이 실행되어야만 가능
 > 메소드 오버라이딩 : 함수를 이름만 가지고 다시 쓰는것 python O
 > 메소드 오버로딩 : 클래스 내에 다른 내용의 함수를 쓰는 것 python X
-(2022.07.29)
+(2022.07.29) ############################################################# API
+사용한 api 문서 : https://developers.themoviedb.org/3
+사용한 api 주소 : https://api.themoviedb.org/3
+사용한 모듈 : requests
+URL = 주소
+params = {
+'key1': 'val1',
+'key2': 'val2',
+'key3': 'val3'
+}
+api 받는 방법 : request.get(URL, params=params).json()
+나머지는 JSON 지지고 볶기
