@@ -229,3 +229,18 @@ api 받는 방법 : request.get(URL, params=params).json()
 (2022.08.01) D3 1개 품
 (2022.08.02) TIL 푸쉬 된 것 실종... 버전 확인하러가야함
 (2022.08.03) 
+1. 확장
+> live server + open in browser 골라서..
+> live browser 골라서..
+> reset.css : 브라우저 베이스 css 날리기 위한 것.
+2. IDE
+> ! + tab : html 기본 페이지
+> 태그이름 + tab : 태그 기본 세팅
+> 태그이름*n + enter : 태그 n개 세팅
+> 태그이름.클래스이름*n + enter : 클래스인 태그 n개 세팅
+> 태그이름 + mdn  : 태그 백과사전
+> <marquee> : 슬라이딩 태그
+background-size: contain
+background-repeat: no repeat
+css는 css파일 가장 밑부터 우선
+(2022.08.03) 
