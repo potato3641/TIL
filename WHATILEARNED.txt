@@ -243,3 +243,4 @@ background-size: contain
 background-repeat: no repeat
 css는 css파일 가장 밑부터 우선
 (2022.08.03) 
+(2022.08.04) 
