@@ -252,3 +252,15 @@ package.json
 (2022.08.09) 
 (2022.08.10)
 (2022.08.11)
+SWEA 거미
+법선은 디터미넌트 PQR
+법선과 r-r0 각각의 원소를 product할때 0이면 수직
+ax ay az
+bx by bz
+cx cy cz
+bx-ax by-ay bz-az
+cx-bx cy-by cz-bz
+(by-ay * cz-bz - bz-az * cy-by)*dx-ax+
+(bx-ax * cz-bz - bz-az * cx-bx)*dy-ay+
+(bx-ax * cy-by - by-ay * cx-bx)*dz-az
+dx dy dz
