@@ -264,3 +264,5 @@ cx-bx cy-by cz-bz
 (bx-ax * cz-bz - bz-az * cx-bx)*dy-ay+
 (bx-ax * cy-by - by-ay * cx-bx)*dz-az
 dx dy dz
+(2022.08.12)
+거미 푸는중 25까지 클리어
