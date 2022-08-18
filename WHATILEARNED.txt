@@ -277,3 +277,4 @@ dx dy dz
 4613
 1860
 4615
+date batch test
