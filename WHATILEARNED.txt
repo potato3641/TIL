@@ -315,6 +315,7 @@ py manage.py startapp appname
 (settings.py)
 INSTALLED_APPS = [
 	'appname',
+	...
 ]
 
  - Templates skeleton 사용법
@@ -355,3 +356,9 @@ def func(request, variable):
 
  - GET 보낸 데이터는 어떻게 받나?
 request.GET.get('key')
+
+ - URL 하드코딩 하기 싫으면?
+(urls.py)
+path('app/<variable>/', views.func, name='vals'),
+(test.html)
+<form action="{% url 'vals' %}" method="GET">
