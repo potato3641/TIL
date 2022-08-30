@@ -285,4 +285,73 @@ dx dy dz
 (2022.08.27)
 (2022.08.28)
 (2022.08.29)
-(2022.08.30)
+(2022.08.30) Django
+
+ - 가상환경 설정
+py -m venv venv
+
+ - 가상환경 활성화
+source venv/Source/activate
+
+ - 장고설치
+pip install django==3.2.13
+
+ - 가상환경 버전 내보내기
+pip freeze > requirements.txt
+
+ - 가상환경 버전 내보낸거 설치하기
+pip install -r requirements.txt
+
+ - 현재위치에 projectname 프로젝트 설치
+django-admin startproject projectname .
+
+ - 서버 시작~
+py manage.py runserver
+
+ - appname 앱 설치~
+py manage.py startapp appname
+
+ - 앱 설치 후 필수 세팅
+(settings.py)
+INSTALLED_APPS = [
+	'appname',
+]
+
+ - Templates skeleton 사용법
+(base.html) 평범한 html 문서
+<body>
+	{% block content %}
+	{% endblock content %}
+</body>
+(index.html) extends로 base.html을 땡겨와서 블록 부분만 새로 작성
+{% extends 'base.html' %} → 문자 그대로 맨 위, 1번째 줄에 있어야함
+{% block content %}
+	<h1>hello world!</h1>
+{% endblock content %}
+
+ - skeleton을 최상위 templates에 두고 가져오려면
+(settings.py)
+TEMPLATES = [
+	{
+		...
+		'DIRS': [BASE_DIR / 'templates',],
+		...
+	},
+]
+
+ - Variable Routing URL 변수 사용하기
+(urls.py)
+urlpatterns = [
+	path('app/<variable>/', views.func),
+]
+(views.py)
+def func(request, variable):
+	context = {
+		'var': variable,
+	}
+	return render(request, 'index.html', context)
+(index.html)
+<h1>{{ var }} is variable</h1>
+
+ - GET 보낸 데이터는 어떻게 받나?
+request.GET.get('key')
