@@ -362,3 +362,14 @@ request.GET.get('key')
 path('app/<variable>/', views.func, name='vals'),
 (test.html)
 <form action="{% url 'vals' %}" method="GET">
+
+ - url 앱별 관리 하고 싶으면?
+(pjt urls.py)
+urlpatterns = [
+	...
+	path('newapp/', include('newapp.urls'))
+]
+(newapp urls.py) 해당 path는 /newapp/newpage/임
+urlpatterns = [
+	path('newpage/', views.func),
+]
