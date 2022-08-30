@@ -288,28 +288,28 @@ dx dy dz
 (2022.08.30) Django
 
  - 가상환경 설정
-py -m venv venv
+$ py -m venv venv
 
  - 가상환경 활성화
-source venv/Source/activate
+$ source venv/Source/activate
 
  - 장고설치
-pip install django==3.2.13
+$ pip install django==3.2.13
 
  - 가상환경 버전 내보내기
-pip freeze > requirements.txt
+$ pip freeze > requirements.txt
 
  - 가상환경 버전 내보낸거 설치하기
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 
  - 현재위치에 projectname 프로젝트 설치
-django-admin startproject projectname .
+$ django-admin startproject projectname .
 
  - 서버 시작~
-py manage.py runserver
+$ py manage.py runserver
 
  - appname 앱 설치~
-py manage.py startapp appname
+$ py manage.py startapp appname
 
  - 앱 설치 후 필수 세팅
 (settings.py)
