@@ -374,3 +374,4 @@ urlpatterns = [
 	path('newpage/', views.func),
 ]
 (2022.08.31)
+(2022.09.01)
