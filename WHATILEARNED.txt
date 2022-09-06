@@ -388,3 +388,18 @@ vscode 하단부 파이썬 인터프리터 설정이 글로벌로 되어있는 �
 
  - django form에서 attribute 값 얻는 방법
 form['title'].value()
+
+ - html문서에서 폼을 쪼개는 법 ( form.as_p 대신)
+1. 직접 쪼개기
+{{ form.var.errors }}
+{{ form.var.label_tag }}
+{{ form.var }}
+세 가지는 갖고 있어야함
+2. 포문으로 쪼개기
+{% for field in form %}
+{{ field.errors }}
+{{ field.label_tag }}
+{{ field }}
+{% endfor %}
+
+- django bootstrap 5 외부 라이브러리 폼 사용 가능
