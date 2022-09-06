@@ -381,3 +381,10 @@ urlpatterns = [
 (2022.09.04)
 (2022.09.05)
 (2022.09.06)
+
+ - Import "django.contrib" could not be resolved from source 오류가 나면
+vscode 하단부 파이썬 인터프리터 설정이 글로벌로 되어있는 것을 venv로 바꾸기
+현재 장고가 돌아가는 가상환경과 글로벌 장고의 버전이 달라서 발생
+
+ - django form에서 attribute 값 얻는 방법
+form['title'].value()
