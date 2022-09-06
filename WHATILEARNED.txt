@@ -403,3 +403,4 @@ form['title'].value()
 {% endfor %}
 
 - django bootstrap 5 외부 라이브러리 폼 사용 가능
+(2022.09.07)
