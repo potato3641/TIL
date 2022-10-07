@@ -483,3 +483,40 @@ def prim(G, s):
 (2022.10.05)
 (2022.10.06)
 (2022.10.07)
+git log --oneline --graph
+> 깃의 브랜치 내역 그려줌
+git branch
+> 내가 있는 브랜치 위치 알려줌
+git branch xxx
+> xxx브랜치를 분기함
+git branch -d xxx
+> 병합 이후 버릴 때
+git branch -D xxx
+> 병합 하기 전에 버릴 때(강제삭제)
+git checkout hashval
+> hashval 커밋한 내역까지 잠시 돌아감
+git switch xxx
+> xxx 브랜치로 감. master면 master브랜치로 감
+git switch -c xxx
+> xxx 브랜치로 가는데 없으면 생성해서 감
+git merge xxx
+> xxx 브랜치와 현재 브랜치를 병합함
+
+BRANCH CYCLE MODEL
+- Hub Master (PUSH X)
+- Hub Branch
+- Local Master (PULL ONLY)
+- Local Branch
+HM -> LM (PULL)
+LM -> LB (BRANCH)
+LB -> LB (COMMIT)
+LB -> HB (PUSH)
+HB -> HM (MERGE)
+
+git remote -v
+> 허브와 연결이 잘 되었는지 확인
+
+
+
+
+
