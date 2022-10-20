@@ -545,3 +545,45 @@ b는 '선언'된 '변수'임
 delete는 선언된 것은 지울 수 없고 프로퍼티만 지울 수 있음
 
 js는 객체지향이고 인터프리터가 아니기 때문에 선언한다면 객체 안에서 언제든 사용이 가능하나 프로퍼티는 선언해야 사용이 가능함
+
+js Array Method
+ - 뒤에서 동작
+push : same
+pop : same
+ - 앞에서 동작
+unshift : push // arr.length
+shift : pop
+ - 기타
+includes : a in arr
+indexOf : find
+join : arr.join('') // same
+
+js object Method
+넣을 때 key 이름 == value 이름 이라면
+{ key, } // { key: value, } 가
+역으로도 가능함
+
+name = 'hooly'
+const dooly = {
+  name: 'dooly',
+  greeting1: () => console.log(this.name),
+  greeting2: function () { console.log(this.name) },
+  greeting3 () { console.log(this.name) },
+}
+greeting1 : hooly
+greeting2 : dooly
+greeting3 : dooly
+
+const key = 'hello'
+const myobject = { [key]: 1 }
+myobject.hello
+
+arr.slice(startval, endval)
+arr[startval:endval] // same
+arr.splice(startval, [deletecount])
+arr[startval:] // arr = arr[:startval]
+arr = Array.from(Array(10).keys(), x=>x+1)
+arr = Array.from(Array(10), (_,x)=>x+1)
+> 1~10 인 배열 [1,2,3,4,5,6,7,8,9,10]
+arr = Array.from({length:10}, function(v, k) {return k})
+> 0~9 인 배열 [0,1,2,3,4,5,6,7,8,9]
