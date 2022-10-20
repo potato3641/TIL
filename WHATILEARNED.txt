@@ -587,3 +587,4 @@ arr = Array.from(Array(10), (_,x)=>x+1)
 > 1~10 인 배열 [1,2,3,4,5,6,7,8,9,10]
 arr = Array.from({length:10}, function(v, k) {return k})
 > 0~9 인 배열 [0,1,2,3,4,5,6,7,8,9]
+(2022.10.21)
