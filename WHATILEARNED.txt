@@ -527,4 +527,21 @@ git remote -v
 (2022.10.17)
 (2022.10.18)
 (2022.10.19)
-(2022.10.20)
+(2022.10.20) js
+a = 3
+var b = 3
+
+Object.getOwnPropertyDescriptor(this, 'a')
+// { value: 6, ... configurable: true }
+Object.getOwnPropertyDescriptor(this, 'b')
+// { value: 6, ... configurable: false }
+
+delete a // true
+delete b // false
+
+a는 '할당'된 '프로퍼티'이고
+b는 '선언'된 '변수'임
+
+delete는 선언된 것은 지울 수 없고 프로퍼티만 지울 수 있음
+
+js는 객체지향이고 인터프리터가 아니기 때문에 선언한다면 객체 안에서 언제든 사용이 가능하나 프로퍼티는 선언해야 사용이 가능함
