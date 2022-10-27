@@ -611,3 +611,4 @@ BOJ폴더의 JSON데이터
 !!!밀린 정리해야 할 것 : axios, querySelector, django ws 5,6 전반적으로!!!--하고나서 지울 것
 추가 정보) 스터디 참석률 계산하는거 정리됨
 https://jjunbbang.tistory.com/32
+(2022.10.28)
