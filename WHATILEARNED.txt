@@ -599,3 +599,6 @@ js토이프로젝트 - gh캘린더
 서브태스크1 - 달력 모양
 서브태스크2 - 달력 안에 데이터 넣기
 서브태스크2 - 달력 안에 깃허브 데이터 넣기
+토이프로젝트 도구검색 결과
+1. 데이터 가져오기
+포스트맨 확인하세요 https://raw.githubusercontent.com/potato3641/algo/master/input.txt
