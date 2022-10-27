@@ -600,6 +600,7 @@ js토이프로젝트 - gh캘린더
 서브태스크2 - 달력 안에 데이터 넣기
 서브태스크3 - 달력 안에 깃허브 데이터 넣기
 +)서브태스크4 - 달력 안에 깃허브 데이터 시각화까지 해서 만들기
+++)서브태스크5 - 깃허브 api로 만든 페이지
 금일 토이프로젝트 도구검색 결과
 1. 데이터 가져오기
 포스트맨 확인하세요 https://raw.githubusercontent.com/potato3641/algo/master/input.txt
@@ -607,3 +608,6 @@ input.txt의 그냥 생짜 content
 2. JSON 가져오기
 포스트맨 확인하세요 https://api.github.com/repos/potato3641/algo/contents/BOJ
 BOJ폴더의 JSON데이터
+!!!밀린 정리해야 할 것 : axios, querySelector, django ws 5,6 전반적으로!!!--하고나서 지울 것
+추가 정보) 스터디 참석률 계산하는거 정리됨
+https://jjunbbang.tistory.com/32
