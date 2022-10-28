@@ -612,3 +612,8 @@ BOJ폴더의 JSON데이터
 추가 정보) 스터디 참석률 계산하는거 정리됨
 https://jjunbbang.tistory.com/32
 (2022.10.28)
+3. 파이썬 파일의 수량을 세는 방법
+https://api.github.com/search/code?q=extension:py%20repo:potato3641/algo
+>> 확장자가 py고 potato3641사용자의 algo 레포지토리에서 검색
+토이프로젝트 2022.10.28 10:00 ~ 2022.10.28 14:00 완료
+토이프로젝트 보고서 2022.11.04까지 작성해서 해당 페이지에 README로 작성해놓기
