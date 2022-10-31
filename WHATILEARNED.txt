@@ -608,7 +608,7 @@ input.txt의 그냥 생짜 content
 2. JSON 가져오기
 포스트맨 확인하세요 https://api.github.com/repos/potato3641/algo/contents/BOJ
 BOJ폴더의 JSON데이터
-!!!밀린 정리해야 할 것 : axios, querySelector, django ws 5,6 전반적으로!!!--하고나서 지울 것
+!!!밀린 정리해야 할 것 : django ws 5,6 전반적으로!!!--하고나서 지울 것
 추가 정보) 스터디 참석률 계산하는거 정리됨
 https://jjunbbang.tistory.com/32
 (2022.10.28)
@@ -621,3 +621,4 @@ https://api.github.com/search/code?q=extension:py%20repo:potato3641/algo
 (2022.10.29)
 (2022.10.30)
 (2022.10.31)
+보고서 노션으로 한거 readme로 해야함!
