@@ -624,8 +624,8 @@ https://api.github.com/search/code?q=extension:py%20repo:potato3641/algo
 보고서 노션으로 한거 readme로 해야함!
 (2022.11.01)
 모든 태스크 완료
-남은것 : ws56, readme
-- 포크한거 vscode로 npm i npm start해서 볼 수 있음
+남은것 : ws56
+- 포크한거 vscode로 $npm i $npm start해서 볼 수 있음
 
 (today) vue.js
 - computed : 계산결과가 바뀌어야 할 때 실행
@@ -642,3 +642,4 @@ v-bind:xxx
 > :xxx
 
 (2022.11.02)
+토이프로젝트 보고서까지 완료함
