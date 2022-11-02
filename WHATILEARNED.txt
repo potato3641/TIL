@@ -645,3 +645,4 @@ v-bind:xxx
 토이프로젝트 보고서까지 완료함!
 emit prop에 대해 잘 정리됨
 https://whitepro.tistory.com/255
+(2022.11.03)
