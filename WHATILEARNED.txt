@@ -647,3 +647,4 @@ emit prop에 대해 잘 정리됨
 https://whitepro.tistory.com/255
 (2022.11.03)
 (2022.11.04)
+append, appendchild 차이
